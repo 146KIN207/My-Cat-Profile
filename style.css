@@ -34,6 +34,7 @@ img {
   height:230px;
   border-radius: 50%;
   animation: ripple 10s 1 ease-in-out;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -59,6 +60,11 @@ ul {
   margin-top: 15px;
   margin-bottom: 5px;
   border-radius: 10px;
+}
+
+#btn:hover {
+  background-color:rgba(255, 255, 255, 0.6);
+  color:black;
 }
 
 .blocks {
