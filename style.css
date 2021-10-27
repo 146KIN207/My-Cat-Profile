@@ -15,8 +15,8 @@ h1, h2, h3 {
   font-family: 'Irish Grover', cursive;
 }
 
-#pioupiou:hover {
-  font-size: 80px;
+h1 mark:hover {
+  font-size: 30px;
 }
 
 a {
@@ -94,6 +94,12 @@ ul {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 10px;
+}
+
+.block3 {
+  margin-top: 20px;
+  font-family: 'Irish Grover', cursive;
+  font-size: 12px;
 }
 
 * {
@@ -180,7 +186,7 @@ body {
   }
 
   33%{
-    transform: scale(1);
+    transform: scale(1) rotate(360deg);
   }
 
   66%{
