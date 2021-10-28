@@ -5,18 +5,14 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 20px;
-  line-height: 10px;
+  font-size: 100%;
+  line-height: 10%;
   text-align: center;
 }
 
 h1, h2, h3 {
   color:rgb(255, 255, 255);
   font-family: 'Irish Grover', cursive;
-}
-
-h1 mark:hover {
-  font-size: 30px;
 }
 
 a {
@@ -30,8 +26,8 @@ a:hover {
 
 img {
   object-fit: cover;
-  width:230px;
-  height:230px;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   animation: ripple 10s 1 ease-in-out;
   box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
@@ -49,7 +45,7 @@ ul {
 .social-network-item {
  display: inline-block;
  padding: 10px;
- font-size: 30px;
+ font-size: 200%;
 }
 
 #btn {
@@ -65,6 +61,14 @@ ul {
 #btn:hover {
   background-color:rgba(255, 255, 255, 0.6);
   color:black;
+}
+
+#btn span {
+  display: none;
+}
+
+#btn:hover span {
+  display: contents;
 }
 
 .blocks {
@@ -99,7 +103,13 @@ ul {
 .block3 {
   margin-top: 20px;
   font-family: 'Irish Grover', cursive;
-  font-size: 12px;
+  font-size: 80%;
+}
+
+.block3>p:hover span {
+  /* animation: heart 10s 1 ease-in-out;
+  animation-timing-function: ease; */
+  font-size: 50px;
 }
 
 * {
@@ -180,7 +190,7 @@ body {
   100% {top: 110%;}
 }
 
-@keyframes ripple{
+@keyframes ripple {
   0%{
     transform: scale(0.5);
   }
@@ -209,3 +219,17 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+/* @keyframes heart {
+  0% {
+    font-size: 50px;
+  }
+
+  50% {
+    font-size: 50px;
+  }
+
+  100% {
+    font-size: 10px;
+  }
+} */
